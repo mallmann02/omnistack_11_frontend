@@ -1,11 +1,11 @@
 import React from 'react';
-
 import dotenv from 'dotenv';
-dotenv.config();
 
 import './global.css';
 
 import Routes from './routes';
+
+dotenv.config()
 
 function App() {
   return (
