@@ -1,5 +1,7 @@
 import React from 'react';
-const dotenv = require('dotenv').config()
+
+import dotenv from 'dotenv';
+dotenv.config();
 
 import './global.css';
 
